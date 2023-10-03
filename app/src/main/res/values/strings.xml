@@ -4,4 +4,6 @@
     <string name="menu_joker_day">piada do dia</string>
     <string name="menu_about">sobre</string>
     <string name="social">social</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
