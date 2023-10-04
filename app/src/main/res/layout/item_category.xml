@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/cotainer_category"
+    android:gravity="center"
+    android:background="?attr/colorPrimary"
+    android:layout_height="50dp">
+    <TextView xmlns:tools="http://schemas.android.com/tools"
+        android:text="@string/app_name"
+        android:id="@+id/txt_category"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="8dp"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
