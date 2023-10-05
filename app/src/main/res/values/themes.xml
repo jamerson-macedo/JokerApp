@@ -14,4 +14,11 @@
 
     <style name="Theme.JokerApp.appBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.JokerApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.App.Start" parent="Theme.SplashScreen">
+       <item name="android:windowSplashScreenBackground">@color/blue_700</item>
+       <item name="windowSplashScreenAnimatedIcon">@drawable/buba</item>
+       <item name="windowSplashScreenAnimationDuration">200</item>
+       <item name="postSplashScreenTheme">@style/Theme.JokerApp</item>
+
+    </style>
 </resources>

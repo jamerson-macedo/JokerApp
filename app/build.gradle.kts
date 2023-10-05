@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.jokerapp"
-        minSdk = 24
+        minSdk = 31
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -46,6 +46,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     val fragment_version = "1.6.1"
     implementation ("com.github.lisawray.groupie:groupie:2.9.0")
+    implementation("androidx.core:core-splashscreen:1.0.1")
 
     // Kotlin
     implementation("androidx.fragment:fragment-ktx:$fragment_version")
