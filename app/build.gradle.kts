@@ -47,6 +47,9 @@ dependencies {
     val fragment_version = "1.6.1"
     implementation ("com.github.lisawray.groupie:groupie:2.9.0")
     implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.9.0")
 
     // Kotlin
     implementation("androidx.fragment:fragment-ktx:$fragment_version")
