@@ -28,7 +28,7 @@
     <fragment
         android:id="@+id/nav_about"
         android:label="@string/menu_about"
-        android:name="com.example.jokerapp.AboutFragment"
+        android:name="com.example.jokerapp.view.AboutFragment"
         xmlns:tools="http://schemas.android.com/tools"
         tools:layout="@layout/fragment_about"/>
 
