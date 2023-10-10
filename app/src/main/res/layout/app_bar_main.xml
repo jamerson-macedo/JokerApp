@@ -19,15 +19,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 <include layout="@layout/content_main"/>
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        app:srcCompat="@drawable/baseline_refresh_24"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_gravity="bottom|end"
 
-        android:id="@+id/fab"
-        android:contentDescription="@null" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

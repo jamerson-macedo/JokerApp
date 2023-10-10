@@ -8,7 +8,7 @@ import com.example.jokerapp.model.Category
 import com.xwray.groupie.GroupieViewHolder
 import com.xwray.groupie.Item
 
-data class CategoryItem(private val category: Category):Item<CategoryItem.CategoryViewHolder>() {
+data class CategoryItem( val category: Category):Item<CategoryItem.CategoryViewHolder>() {
     class CategoryViewHolder(view:View):GroupieViewHolder(view)
 
     override fun createViewHolder(itemView: View): CategoryViewHolder {
